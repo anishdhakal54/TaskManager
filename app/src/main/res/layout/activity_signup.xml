@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"></ImageView>
+
+
+    <Button
+        android:id="@+id/browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Browse"
+        android:textSize="20dp" />
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+          android:id="@+id/firstName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="First name"
+          android:textSize="30sp" />
+      <EditText
+          android:id="@+id/lastName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Last Name"
+          android:textSize="30sp" />
+      <EditText
+          android:id="@+id/username"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Username"
+          android:textSize="30sp" />
+      <EditText
+          android:id="@+id/password"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Password"
+          android:textSize="30sp" />
+
+      <EditText
+          android:id="@+id/confirmPassword"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Confirm Password"
+          android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/signup"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="30sp"
+          android:text="Signup"
+          />
+
+
+  </ScrollView>
+
+</LinearLayout>
